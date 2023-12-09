@@ -50,7 +50,6 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "27856297+dependabot-preview[bot]@users.noreply.github.com"
-        git pull --ff-only
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
