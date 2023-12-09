@@ -49,7 +49,7 @@ jobs:
     - name: 'Commit to the repo'
       run: |
         git config --global user.name "GitHub Actions"
-        git config --global user.email "27856297+dependabot-preview[bot]@users.noreply.github.com"
+        git config --global user.email "action@github.com"
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
