@@ -48,7 +48,6 @@ jobs:
     # Commit all changed files to the repository
     - name: 'Commit to the repo'
       run: |
-        git pull --ff-only
         git config --global user.name "GitHub Actions"
         git config --global user.email "27856297+dependabot-preview[bot]@users.noreply.github.com"
         git pull --ff-only
