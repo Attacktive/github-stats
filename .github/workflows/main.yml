@@ -1,15 +1,12 @@
 name: Generate Stats Images
-
 on:
   push:
     branches: [ master ]
   schedule:
     - cron: "5 0 * * MON"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
